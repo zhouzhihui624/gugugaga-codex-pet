@@ -2,7 +2,23 @@
 set -euo pipefail
 
 repo_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-pet_id=$(python3 - "$repo_dir/pet.json" <<'PY'
+requested_pet=${1:-gugugaga}
+
+case "$requested_pet" in
+  gugugaga)
+    pet_dir="$repo_dir"
+    ;;
+  pikachu)
+    pet_dir="$repo_dir/pets/pikachu"
+    ;;
+  *)
+    echo "Unknown pet: $requested_pet" >&2
+    echo "Usage: ./install.sh [gugugaga|pikachu]" >&2
+    exit 2
+    ;;
+esac
+
+pet_id=$(python3 - "$pet_dir/pet.json" <<'PY'
 import json
 import re
 import sys
@@ -23,7 +39,7 @@ PY
 
 destination="${CODEX_HOME:-$HOME/.codex}/pets/$pet_id"
 mkdir -p "$destination"
-install -m 0644 "$repo_dir/pet.json" "$destination/pet.json"
-install -m 0644 "$repo_dir/spritesheet.webp" "$destination/spritesheet.webp"
+install -m 0644 "$pet_dir/pet.json" "$destination/pet.json"
+install -m 0644 "$pet_dir/spritesheet.webp" "$destination/spritesheet.webp"
 
 echo "Installed $pet_id to $destination"

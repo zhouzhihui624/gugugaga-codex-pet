@@ -1,0 +1,29 @@
+Pikachu Sprite Rights And Redistribution Notice
+================================================
+
+Source atlas:
+  https://github.com/mn8821236/petscodex/tree/main/pikachu
+
+This package contains rearranged and processed Pikachu character artwork. The
+source repository's public availability does not transfer ownership of Pokemon
+art or grant an unrestricted open-source license for that artwork.
+
+Pokemon, Pikachu, and related character artwork are trademarks and copyright of
+Nintendo, Game Freak, Creatures Inc., and The Pokemon Company. This package is
+an unofficial fan work and is not affiliated with, endorsed by, or sponsored by
+those rights holders.
+
+Intended use:
+  - Personal Codex pet companions
+  - Private, non-commercial fan use
+  - Educational demonstration of the sprite-atlas pipeline
+
+Avoid:
+  - Commercial products or paid services
+  - Merchandise
+  - Monetized Pokemon asset collections
+  - Claiming the character artwork is covered by an MIT or other permissive
+    open-source license
+
+Anyone redistributing this package should retain this notice and independently
+assess whether their planned use is permitted in their jurisdiction.
