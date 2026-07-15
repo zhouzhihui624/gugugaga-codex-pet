@@ -3,15 +3,15 @@
 ## MIT 许可覆盖的内容
 
 - `install.sh`
-- `pet.json` 与 `pets/*/pet.json` 中由本项目编写的通用配置结构
-- `README.md`、`LEGAL_RISK.md` 等本项目原创文档
+- `pets/*/pet.json` 中由本项目编写的通用配置结构
+- `README.md`、`pets/*/LEGAL_RISK.md` 等本项目原创文档
 
 上述内容适用 [LICENSE-CODE](LICENSE-CODE)。
 
 ## MIT 许可不覆盖的内容
 
-- 根目录及 `pets/` 下的 `spritesheet.webp`
-- 根目录及 `pets/` 下的预览图、动画图和角色美术
+- `pets/` 下的 `spritesheet.webp`
+- `pets/` 下的预览图、动画图和角色美术
 - 咕咕嘎嘎名称及具体角色形象
 - 皮卡丘、Pokemon 名称及具体角色形象
 - 懒羊羊、《喜羊羊与灰太狼》名称及具体角色形象

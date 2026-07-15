@@ -9,11 +9,10 @@
 
 ### 咕咕嘎嘎
 
-![咕咕嘎嘎预览](preview.png)
+![咕咕嘎嘎预览](pets/gugugaga/preview.png)
 
 - 安装命令：`./install.sh gugugaga`
-- 版权说明：[LEGAL_RISK.md](LEGAL_RISK.md)
-- 为保持旧版安装方式兼容，咕咕嘎嘎的宠物文件仍位于仓库根目录。
+- 版权说明：[pets/gugugaga/LEGAL_RISK.md](pets/gugugaga/LEGAL_RISK.md)
 
 ### 皮卡丘
 
@@ -62,12 +61,11 @@ cd gugugaga-codex-pet
 
 ## 文件
 
-- `pet.json`、`spritesheet.webp`：根目录中的咕咕嘎嘎宠物包。
+- `pets/gugugaga/`：咕咕嘎嘎宠物包、预览及风险说明。
 - `pets/pikachu/`：皮卡丘宠物包、预览、验证结果及风险说明。
 - `pets/lan-yangyang/`：懒羊羊宠物包、动作预览、验证结果及风险说明。
 - `pets/doraemon/`：哆啦A梦宠物包、预览、验证结果及风险说明。
 - `install.sh`：按宠物 ID 安装到本地 Codex。
-- `LEGAL_RISK.md`：咕咕嘎嘎的版权来源、风险等级及使用边界。
 - `ASSET_LICENSE.md`：代码与全部角色美术素材的许可边界。
 
 ## 许可边界
@@ -78,6 +76,7 @@ cd gugugaga-codex-pet
 
 ## 更新记录
 
+- `2026-07-15`：将咕咕嘎嘎迁移至标准的 `pets/gugugaga/` 目录，安装命令及本地安装位置保持不变。
 - `2026-07-15`：新增青春活力版懒羊羊 v2 宠物，包含 9 组标准动作、16 个观察方向和独立版权风险说明。
 - `2026-07-15`：新增哆啦A梦 v2 宠物，包含 9 组标准动作、16 个观察方向、来源说明和独立风险提示。
 - `2026-07-15`：新增无帽皮卡丘 v2 宠物，包含 9 组标准动作、16 个观察方向、来源说明和独立风险提示。

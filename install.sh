@@ -6,7 +6,7 @@ requested_pet=${1:-gugugaga}
 
 case "$requested_pet" in
   gugugaga)
-    pet_dir="$repo_dir"
+    pet_dir="$repo_dir/pets/gugugaga"
     ;;
   pikachu)
     pet_dir="$repo_dir/pets/pikachu"
