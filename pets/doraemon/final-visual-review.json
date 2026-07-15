@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "verdict": "pass",
+  "standard_rows": "All standard rows preserve a consistent Doraemon identity and read correctly, including right/left drag facing, a clear jump arc, and clean transparency without clipping, overlap, or background panels.",
+  "directions": "The labeled 16-direction loop follows the intended axes and quadrants monotonically with no visible snap or reversal.",
+  "warnings": "Blind-review ambiguities and continuity metric spikes are non-blocking because labeled normal-size review confirms the intended directions.",
+  "repair": "none"
+}

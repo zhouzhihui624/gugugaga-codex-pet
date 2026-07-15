@@ -33,6 +33,15 @@
 - 版权说明：[pets/lan-yangyang/LEGAL_RISK.md](pets/lan-yangyang/LEGAL_RISK.md)
 - 角色来源及使用边界：[pets/lan-yangyang/SOURCE.md](pets/lan-yangyang/SOURCE.md)
 
+### 哆啦A梦
+
+![哆啦A梦预览](pets/doraemon/preview.png)
+
+- 经典蓝色机器猫造型，包含完整 v2 动作与观察方向。
+- 安装命令：`./install.sh doraemon`
+- 版权说明：[pets/doraemon/LEGAL_RISK.md](pets/doraemon/LEGAL_RISK.md)
+- 素材来源及处理说明：[pets/doraemon/SOURCE.md](pets/doraemon/SOURCE.md)
+
 ## 安装
 
 ```bash
@@ -41,6 +50,7 @@ cd gugugaga-codex-pet
 ./install.sh gugugaga
 ./install.sh pikachu
 ./install.sh lan-yangyang
+./install.sh doraemon
 ```
 
 安装位置分别为：
@@ -48,12 +58,14 @@ cd gugugaga-codex-pet
 - `${CODEX_HOME:-$HOME/.codex}/pets/gugugaga`
 - `${CODEX_HOME:-$HOME/.codex}/pets/pikachu`
 - `${CODEX_HOME:-$HOME/.codex}/pets/lan-yangyang`
+- `${CODEX_HOME:-$HOME/.codex}/pets/doraemon`
 
 ## 文件
 
 - `pet.json`、`spritesheet.webp`：根目录中的咕咕嘎嘎宠物包。
 - `pets/pikachu/`：皮卡丘宠物包、预览、验证结果及风险说明。
 - `pets/lan-yangyang/`：懒羊羊宠物包、动作预览、验证结果及风险说明。
+- `pets/doraemon/`：哆啦A梦宠物包、预览、验证结果及风险说明。
 - `install.sh`：按宠物 ID 安装到本地 Codex。
 - `LEGAL_RISK.md`：咕咕嘎嘎的版权来源、风险等级及使用边界。
 - `ASSET_LICENSE.md`：代码与全部角色美术素材的许可边界。
@@ -67,5 +79,6 @@ cd gugugaga-codex-pet
 ## 更新记录
 
 - `2026-07-15`：新增青春活力版懒羊羊 v2 宠物，包含 9 组标准动作、16 个观察方向和独立版权风险说明。
+- `2026-07-15`：新增哆啦A梦 v2 宠物，包含 9 组标准动作、16 个观察方向、来源说明和独立风险提示。
 - `2026-07-15`：新增无帽皮卡丘 v2 宠物，包含 9 组标准动作、16 个观察方向、来源说明和独立风险提示。
 - `2026-07-12`：统一待机、拖动及其他动作的视觉比例，恢复原跳跃轨迹，并对缩放后的帧进行透明边缘安全的轻度锐化。

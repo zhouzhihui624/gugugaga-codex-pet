@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "reviewed_at_normal_size": true,
+  "directions": [
+    {"direction":"000","expected":"up","status":"pass","horizontal":"none required; nose centered","vertical":"pupils high and chin lifted"},
+    {"direction":"022.5","expected":"up-right","status":"pass","horizontal":"pupils and nose begin moving screen-right","vertical":"pupils remain high"},
+    {"direction":"045","expected":"up-right","status":"pass","horizontal":"face and nose turn screen-right","vertical":"eyes and head remain pitched up"},
+    {"direction":"067.5","expected":"up-right","status":"pass","horizontal":"strong screen-right face turn","vertical":"remaining upward pupil cue is visible"},
+    {"direction":"090","expected":"right","status":"pass","horizontal":"unmistakable screen-right profile with nose beyond head center","vertical":"none required"},
+    {"direction":"112.5","expected":"down-right","status":"warning","horizontal":"profile remains unmistakably screen-right","vertical":"downward pitch is subtle in isolation but clear in the labeled ordered loop"},
+    {"direction":"135","expected":"down-right","status":"pass","horizontal":"nose and face remain screen-right","vertical":"clear downward head pitch"},
+    {"direction":"157.5","expected":"down-right","status":"warning","horizontal":"screen-right component is intentionally subtle near the down cardinal","vertical":"deep downward gaze approaches the centered down anchor"},
+    {"direction":"180","expected":"down","status":"pass","horizontal":"none required; face centered beneath head","vertical":"unmistakable downward bow toward bell"},
+    {"direction":"202.5","expected":"down-left","status":"pass","horizontal":"nose and face begin moving screen-left","vertical":"eyes and head remain pitched down"},
+    {"direction":"225","expected":"down-left","status":"pass","horizontal":"clear screen-left face turn","vertical":"downward eye and chin cue remains"},
+    {"direction":"247.5","expected":"down-left","status":"warning","horizontal":"strong near-left profile","vertical":"downward component is subtle but ordered-loop progression is correct"},
+    {"direction":"270","expected":"left","status":"pass","horizontal":"unmistakable screen-left profile with nose beyond head center","vertical":"none required"},
+    {"direction":"292.5","expected":"up-left","status":"pass","horizontal":"profile remains screen-left","vertical":"pupils and nose begin rising"},
+    {"direction":"315","expected":"up-left","status":"pass","horizontal":"nose and face remain screen-left","vertical":"clear upward head pitch"},
+    {"direction":"337.5","expected":"up-left","status":"warning","horizontal":"screen-left component is intentionally subtle near the up cardinal","vertical":"near-up gaze flows directly toward 000"}
+  ],
+  "continuity_resolution": {
+    "status":"accepted-minor-warnings",
+    "evidence":"All four cardinals pass blind review. The ordered loop has no reversal, clipping, transparent holes, broken attachment, or identity change at normal pet size. Remaining metric and blind ambiguities are limited to near-cardinal intermediate poses and do not constitute hard failures."
+  }
+}

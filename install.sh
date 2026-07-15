@@ -14,9 +14,12 @@ case "$requested_pet" in
   lan-yangyang)
     pet_dir="$repo_dir/pets/lan-yangyang"
     ;;
+  doraemon)
+    pet_dir="$repo_dir/pets/doraemon"
+    ;;
   *)
     echo "Unknown pet: $requested_pet" >&2
-    echo "Usage: ./install.sh [gugugaga|pikachu|lan-yangyang]" >&2
+    echo "Usage: ./install.sh [gugugaga|pikachu|lan-yangyang|doraemon]" >&2
     exit 2
     ;;
 esac

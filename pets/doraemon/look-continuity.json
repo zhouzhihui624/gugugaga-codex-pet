@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "reviewRequired": true,
+  "medianDiffPixels": 1839.0,
+  "warnings": [
+    "112.5->135 center shift is high (9.2px)",
+    "135->157.5 center shift is high (14.1px)",
+    "157.5->180 diff is a local outlier (5684 pixels vs neighbor average 2820)",
+    "157.5->180 center shift is high (15.2px)",
+    "157.5->180 sprite area ratio is high (1.23)",
+    "337.5->000 diff is a local outlier (5844 pixels vs neighbor average 2261)",
+    "337.5->000 center shift is high (14.0px)",
+    "337.5->000 sprite area ratio is high (1.35)"
+  ],
+  "alphaHoles": [],
+  "pairs": [
+    {
+      "from": "000",
+      "to": "022.5",
+      "firstPixels": 19038,
+      "secondPixels": 17627,
+      "diffPixels": 2604,
+      "centerDelta": 4.242640687119285,
+      "areaRatio": 1.080047654166903
+    },
+    {
+      "from": "022.5",
+      "to": "045",
+      "firstPixels": 17627,
+      "secondPixels": 17583,
+      "diffPixels": 1760,
+      "centerDelta": 4.123105625617661,
+      "areaRatio": 1.0025024171074333
+    },
+    {
+      "from": "045",
+      "to": "067.5",
+      "firstPixels": 17583,
+      "secondPixels": 17114,
+      "diffPixels": 1591,
+      "centerDelta": 1.5811388300841898,
+      "areaRatio": 1.027404464181372
+    },
+    {
+      "from": "067.5",
+      "to": "090",
+      "firstPixels": 17114,
+      "secondPixels": 16279,
+      "diffPixels": 2113,
+      "centerDelta": 6.800735254367722,
+      "areaRatio": 1.05129307697033
+    },
+    {
+      "from": "090",
+      "to": "112.5",
+      "firstPixels": 16279,
+      "secondPixels": 15469,
+      "diffPixels": 2322,
+      "centerDelta": 3.1622776601683795,
+      "areaRatio": 1.0523627900963217
+    },
+    {
+      "from": "112.5",
+      "to": "135",
+      "firstPixels": 15469,
+      "secondPixels": 14230,
+      "diffPixels": 4226,
+      "centerDelta": 9.192388155425117,
+      "areaRatio": 1.08706957132818
+    },
+    {
+      "from": "135",
+      "to": "157.5",
+      "firstPixels": 14230,
+      "secondPixels": 12918,
+      "diffPixels": 4122,
+      "centerDelta": 14.089002803605371,
+      "areaRatio": 1.1015637095525623
+    },
+    {
+      "from": "157.5",
+      "to": "180",
+      "firstPixels": 12918,
+      "secondPixels": 15929,
+      "diffPixels": 5684,
+      "centerDelta": 15.20690632574555,
+      "areaRatio": 1.2330856169685709
+    },
+    {
+      "from": "180",
+      "to": "202.5",
+      "firstPixels": 15929,
+      "secondPixels": 15983,
+      "diffPixels": 1518,
+      "centerDelta": 0.5,
+      "areaRatio": 1.0033900433172203
+    },
+    {
+      "from": "202.5",
+      "to": "225",
+      "firstPixels": 15983,
+      "secondPixels": 15628,
+      "diffPixels": 1301,
+      "centerDelta": 0.5,
+      "areaRatio": 1.0227156385973892
+    },
+    {
+      "from": "225",
+      "to": "247.5",
+      "firstPixels": 15628,
+      "secondPixels": 15217,
+      "diffPixels": 1104,
+      "centerDelta": 0.0,
+      "areaRatio": 1.0270092659525532
+    },
+    {
+      "from": "247.5",
+      "to": "270",
+      "firstPixels": 15217,
+      "secondPixels": 14837,
+      "diffPixels": 1537,
+      "centerDelta": 2.5,
+      "areaRatio": 1.0256116465592775
+    },
+    {
+      "from": "270",
+      "to": "292.5",
+      "firstPixels": 14837,
+      "secondPixels": 14682,
+      "diffPixels": 1480,
+      "centerDelta": 5.5,
+      "areaRatio": 1.0105571448031603
+    },
+    {
+      "from": "292.5",
+      "to": "315",
+      "firstPixels": 14682,
+      "secondPixels": 14157,
+      "diffPixels": 1200,
+      "centerDelta": 0.5,
+      "areaRatio": 1.0370841279932188
+    },
+    {
+      "from": "315",
+      "to": "337.5",
+      "firstPixels": 14157,
+      "secondPixels": 14097,
+      "diffPixels": 1918,
+      "centerDelta": 2.692582403567252,
+      "areaRatio": 1.0042562247286657
+    },
+    {
+      "from": "337.5",
+      "to": "000",
+      "firstPixels": 14097,
+      "secondPixels": 19038,
+      "diffPixels": 5844,
+      "centerDelta": 14.0,
+      "areaRatio": 1.3505001064056181
+    }
+  ]
+}
