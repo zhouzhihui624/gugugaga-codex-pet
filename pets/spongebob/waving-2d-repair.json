@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "reason": "Replace the stylistically inconsistent 3D waving row with the user-approved flat 2D source.",
+  "source": "references/action-poses/waving-source.png",
+  "candidate": "qa/waving-2d-candidate/waving-2d-strip.png",
+  "transform": {
+    "spriteSize": [
+      180,
+      193
+    ],
+    "angles": [
+      -1.5,
+      0,
+      1.5,
+      0
+    ],
+    "verticalOffsets": [
+      0,
+      -1,
+      0,
+      1
+    ],
+    "pivot": [
+      96,
+      198
+    ],
+    "frameCount": 4,
+    "horizontalStabilization": [
+      -4,
+      0,
+      3,
+      0
+    ]
+  },
+  "outputs": [
+    "frames/waving/00.png",
+    "frames/waving/01.png",
+    "frames/waving/02.png",
+    "frames/waving/03.png"
+  ]
+}

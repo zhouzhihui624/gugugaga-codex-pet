@@ -5,7 +5,7 @@
 ## 制作方式
 
 - 主形象和多数动作行由生成式图像工具辅助制作，并经过身份一致性检查、分帧、动作编排、透明背景处理和视觉校验。
-- 部分生成任务因工具输出审核无法完成，改用用户明确批准的网络动作参考进行确定性打包。相关处理仅包括裁切、统一缩放、帧复用、位置偏移或从已批准帧组成动作条，不代表项目取得了原角色或源素材的完整权利。
+- 部分生成任务因工具输出审核无法完成，改用用户明确批准的网络动作参考进行确定性打包。二维挥手动作由已批准的平面素材统一缩放、轻微旋转和位置稳定化得到。相关处理不代表项目取得了原角色或源素材的完整权利。
 - 最终图集按 Codex v2 宠物规范组装为 9 组标准动作和 16 个观察方向。
 
 ## 参考页面
@@ -15,7 +15,6 @@
 - PNGimg 挥手姿势页面：https://pngimg.com/image/49760
 - CityPNG 失败／难过姿势页面：https://www.citypng.com/photo/9063/hd-spongebob-sad-crying-character-transparent-png
 - CityPNG 等待／思考姿势页面：https://www.citypng.com/photo/9178/hd-spongebob-walking-thinking-character-transparent-png
-- GIPHY 上的 Nickelodeon 挥手贴纸页面：https://giphy.com/stickers/O18gnTp6gmr8QufFV5
 
 ## 使用边界
 

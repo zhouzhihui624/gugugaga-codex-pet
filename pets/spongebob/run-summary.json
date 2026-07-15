@@ -13,5 +13,7 @@
   "review": "final-visual-review.json",
   "source": "SOURCE.md",
   "legal_risk": "LEGAL_RISK.md",
-  "package": "~/.codex/pets/spongebob"
+  "package": "~/.codex/pets/spongebob",
+  "waving_repair": "waving-2d-repair.json",
+  "waving_preview": "waving-preview.gif"
 }

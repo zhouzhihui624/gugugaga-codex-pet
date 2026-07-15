@@ -14,7 +14,7 @@
 
 ## 素材来源标签不能替代角色授权
 
-制作过程中参考了 Nickelodeon 官方作品页面、Traditional Animation 模型表页面、PNGimg、CityPNG 以及 GIPHY 上的 Nickelodeon 贴纸页面。第三方页面标注的“免费下载”“个人使用”“CC BY-NC”、可分享贴纸或类似复用说明，不代表这些网站能够授予 SpongeBob SquarePants 角色本身的全部版权、商标权或衍生作品再分发权，也不能被视为完整授权链。
+制作过程中参考了 Nickelodeon 官方作品页面、Traditional Animation 模型表页面、PNGimg 和 CityPNG。第三方页面标注的“免费下载”“个人使用”“CC BY-NC”或类似复用说明，不代表这些网站能够授予 SpongeBob SquarePants 角色本身的全部版权、商标权或衍生作品再分发权，也不能被视为完整授权链。
 
 详细参考页面和处理方式见 `SOURCE.md`。
 
