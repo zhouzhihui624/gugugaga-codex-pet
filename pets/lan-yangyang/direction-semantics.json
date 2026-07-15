@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "reviewRequired": false,
+  "directions": {
+    "000": {"status": "pass", "evidence": "eyes and lifted face clearly point up"},
+    "022.5": {"status": "pass", "evidence": "upward gaze begins moving screen-right"},
+    "045": {"status": "pass", "evidence": "face and eyes occupy the up-right quadrant"},
+    "067.5": {"status": "pass", "evidence": "rightward turn strengthens while retaining an upward cue"},
+    "090": {"status": "pass", "evidence": "clear screen-right profile"},
+    "112.5": {"status": "pass", "evidence": "screen-right profile begins lowering"},
+    "135": {"status": "pass", "evidence": "face remains right and continues down"},
+    "157.5": {"status": "pass", "evidence": "near-down right profile flows toward the approved 180 family"},
+    "180": {"status": "pass", "evidence": "broadly frontal face and eyes point down"},
+    "202.5": {"status": "pass", "evidence": "both eyes remain visible with a slight down-left turn"},
+    "225": {"status": "pass", "evidence": "clear three-quarter down-left face"},
+    "247.5": {"status": "pass", "evidence": "stronger left yaw retains a downward cue"},
+    "270": {"status": "pass", "evidence": "unmistakable screen-left profile"},
+    "292.5": {"status": "pass", "evidence": "left profile begins pitching up and revealing the far eye"},
+    "315": {"status": "pass", "evidence": "both eyes are visible in a clear up-left three-quarter face"},
+    "337.5": {"status": "pass", "evidence": "mostly frontal up-facing pose with a small left cue"}
+  },
+  "continuity": {
+    "status": "pass",
+    "evidence": "The ordered loop keeps the same identity, outline style, feet, bib, scale, baseline, horns, and wool construction. Metric warnings correspond to intentional frontal cardinal transitions and transparent space between separated feet, not visible holes or broken attachments."
+  }
+}

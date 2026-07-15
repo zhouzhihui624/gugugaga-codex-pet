@@ -11,9 +11,12 @@ case "$requested_pet" in
   pikachu)
     pet_dir="$repo_dir/pets/pikachu"
     ;;
+  lan-yangyang)
+    pet_dir="$repo_dir/pets/lan-yangyang"
+    ;;
   *)
     echo "Unknown pet: $requested_pet" >&2
-    echo "Usage: ./install.sh [gugugaga|pikachu]" >&2
+    echo "Usage: ./install.sh [gugugaga|pikachu|lan-yangyang]" >&2
     exit 2
     ;;
 esac

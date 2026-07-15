@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "qa_note": "11 rows satisfy the Codex v2 contract. Character identity is stable, all nine action families are youthful and readable, and the 16 look directions form a coherent loop without clipping, detached fragments, breakage, or conspicuous scale changes.",
+  "repair_notes": []
+}
