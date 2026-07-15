@@ -9,14 +9,14 @@
 
 ### 咕咕嘎嘎
 
-![咕咕嘎嘎预览](pets/gugugaga/preview.png)
+![咕咕嘎嘎多角度展示](pets/gugugaga/contact-sheet.png)
 
 - 安装命令：`./install.sh gugugaga`
 - 版权说明：[pets/gugugaga/LEGAL_RISK.md](pets/gugugaga/LEGAL_RISK.md)
 
 ### 皮卡丘
 
-![皮卡丘预览](pets/pikachu/preview.gif)
+![皮卡丘多角度展示](pets/pikachu/contact-sheet.png)
 
 - 无帽、圆脸大眼版本。
 - 安装命令：`./install.sh pikachu`
@@ -25,7 +25,7 @@
 
 ### 懒羊羊
 
-![懒羊羊预览](pets/lan-yangyang/jumping-preview.gif)
+![懒羊羊多角度展示](pets/lan-yangyang/contact-sheet.png)
 
 - 青春活力版，包含更明显的跑动、挥手与跳跃动作。
 - 安装命令：`./install.sh lan-yangyang`
@@ -34,7 +34,7 @@
 
 ### 哆啦A梦
 
-![哆啦A梦预览](pets/doraemon/preview.png)
+![哆啦A梦多角度展示](pets/doraemon/contact-sheet.png)
 
 - 经典蓝色机器猫造型，包含完整 v2 动作与观察方向。
 - 安装命令：`./install.sh doraemon`
@@ -76,6 +76,7 @@ cd gugugaga-codex-pet
 
 ## 更新记录
 
+- `2026-07-15`：统一使用多动作、多角度总览图作为全部宠物的 README 主预览。
 - `2026-07-15`：将咕咕嘎嘎迁移至标准的 `pets/gugugaga/` 目录，安装命令及本地安装位置保持不变。
 - `2026-07-15`：新增青春活力版懒羊羊 v2 宠物，包含 9 组标准动作、16 个观察方向和独立版权风险说明。
 - `2026-07-15`：新增哆啦A梦 v2 宠物，包含 9 组标准动作、16 个观察方向、来源说明和独立风险提示。
