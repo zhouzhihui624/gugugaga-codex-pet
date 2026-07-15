@@ -1,0 +1,95 @@
+{
+  "ok": true,
+  "jumping": {
+    "grounded_start_matches_idle": true,
+    "grounded_end_matches_idle": true,
+    "idle_yellow_body_size": [
+      161,
+      154
+    ],
+    "frames": [
+      {
+        "frame": 0,
+        "yellow_body_size": [
+          161,
+          154
+        ],
+        "width_ratio_to_idle": 1.0,
+        "height_ratio_to_idle": 1.0
+      },
+      {
+        "frame": 1,
+        "yellow_body_size": [
+          163,
+          153
+        ],
+        "width_ratio_to_idle": 1.0124223602484472,
+        "height_ratio_to_idle": 0.9935064935064936
+      },
+      {
+        "frame": 2,
+        "yellow_body_size": [
+          160,
+          150
+        ],
+        "width_ratio_to_idle": 0.9937888198757764,
+        "height_ratio_to_idle": 0.974025974025974
+      },
+      {
+        "frame": 3,
+        "yellow_body_size": [
+          165,
+          153
+        ],
+        "width_ratio_to_idle": 1.0248447204968945,
+        "height_ratio_to_idle": 0.9935064935064936
+      },
+      {
+        "frame": 4,
+        "yellow_body_size": [
+          161,
+          154
+        ],
+        "width_ratio_to_idle": 1.0,
+        "height_ratio_to_idle": 1.0
+      }
+    ]
+  },
+  "running_left": {
+    "derived_from_running_right": true,
+    "frames": [
+      {
+        "frame": 0,
+        "mismatched_bytes": 0
+      },
+      {
+        "frame": 1,
+        "mismatched_bytes": 0
+      },
+      {
+        "frame": 2,
+        "mismatched_bytes": 0
+      },
+      {
+        "frame": 3,
+        "mismatched_bytes": 0
+      },
+      {
+        "frame": 4,
+        "mismatched_bytes": 0
+      },
+      {
+        "frame": 5,
+        "mismatched_bytes": 0
+      },
+      {
+        "frame": 6,
+        "mismatched_bytes": 0
+      },
+      {
+        "frame": 7,
+        "mismatched_bytes": 0
+      }
+    ]
+  }
+}

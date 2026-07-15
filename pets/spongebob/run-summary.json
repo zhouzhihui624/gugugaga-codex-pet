@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "spritesheet": "spritesheet.webp",
+  "validation": "validation.json",
+  "chroma_despill": "chroma-despill.json",
+  "contact_sheet": "contact-sheet.png",
+  "direction_sheet": "look-directions.png",
+  "direction_semantics": "direction-semantics.json",
+  "blind_direction_validation": "direction-blind-validation.json",
+  "blind_review_resolution": "blind-review-resolution.json",
+  "continuity": "look-continuity.json",
+  "review": "final-visual-review.json",
+  "source": "SOURCE.md",
+  "legal_risk": "LEGAL_RISK.md",
+  "package": "~/.codex/pets/spongebob"
+}

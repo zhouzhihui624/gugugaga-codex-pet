@@ -41,6 +41,16 @@
 - 版权说明：[pets/doraemon/LEGAL_RISK.md](pets/doraemon/LEGAL_RISK.md)
 - 素材来源及处理说明：[pets/doraemon/SOURCE.md](pets/doraemon/SOURCE.md)
 
+### 海绵宝宝
+
+![海绵宝宝多角度展示](pets/spongebob/contact-sheet.png)
+
+- 经典黄色方形海绵造型，包含完整 v2 动作与观察方向。
+- 跳跃动作保持主体尺寸稳定，向左动作由完整向右帧逐帧镜像。
+- 安装命令：`./install.sh spongebob`
+- 版权说明：[pets/spongebob/LEGAL_RISK.md](pets/spongebob/LEGAL_RISK.md)
+- 素材来源及处理说明：[pets/spongebob/SOURCE.md](pets/spongebob/SOURCE.md)
+
 ## 安装
 
 ```bash
@@ -50,6 +60,7 @@ cd gugugaga-codex-pet
 ./install.sh pikachu
 ./install.sh lan-yangyang
 ./install.sh doraemon
+./install.sh spongebob
 ```
 
 安装位置分别为：
@@ -58,6 +69,7 @@ cd gugugaga-codex-pet
 - `${CODEX_HOME:-$HOME/.codex}/pets/pikachu`
 - `${CODEX_HOME:-$HOME/.codex}/pets/lan-yangyang`
 - `${CODEX_HOME:-$HOME/.codex}/pets/doraemon`
+- `${CODEX_HOME:-$HOME/.codex}/pets/spongebob`
 
 ## 文件
 
@@ -65,6 +77,7 @@ cd gugugaga-codex-pet
 - `pets/pikachu/`：皮卡丘宠物包、预览、验证结果及风险说明。
 - `pets/lan-yangyang/`：懒羊羊宠物包、动作预览、验证结果及风险说明。
 - `pets/doraemon/`：哆啦A梦宠物包、预览、验证结果及风险说明。
+- `pets/spongebob/`：海绵宝宝宠物包、动作预览、验证结果、来源及风险说明。
 - `install.sh`：按宠物 ID 安装到本地 Codex。
 - `ASSET_LICENSE.md`：代码与全部角色美术素材的许可边界。
 
@@ -76,6 +89,7 @@ cd gugugaga-codex-pet
 
 ## 更新记录
 
+- `2026-07-16`：新增海绵宝宝 v2 宠物；跳跃动作保持主体尺寸稳定，向左动作由完整向右帧逐帧镜像，并附独立来源及版权风险说明。
 - `2026-07-15`：修正懒羊羊向右拖动动作，按已认可的左跑逐帧镜像，统一左右跑动的朝向、比例、步态和落脚基线。
 - `2026-07-15`：统一使用多动作、多角度总览图作为全部宠物的 README 主预览。
 - `2026-07-15`：将咕咕嘎嘎迁移至标准的 `pets/gugugaga/` 目录，安装命令及本地安装位置保持不变。

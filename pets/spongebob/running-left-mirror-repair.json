@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "reason": "Replace incomplete generated leftward frames with exact mirrors of the approved intact rightward frames.",
+  "frames": [
+    {
+      "frame": 0,
+      "source": "frames/running-right/00.png",
+      "output": "frames/running-left/00.png",
+      "transform": "horizontal-mirror-preserving-frame-order",
+      "visible_size": [
+        162,
+        192
+      ],
+      "source_sha256": "c95e408cfecf0265c0746dfdc5fd4343d4e5fa3baca622c5430d7e52a3ff7164",
+      "output_sha256": "ef80bf5bef0b1da96bc3aaf3240c570110b9aed59f378945d090cc8f1abea75b"
+    },
+    {
+      "frame": 1,
+      "source": "frames/running-right/01.png",
+      "output": "frames/running-left/01.png",
+      "transform": "horizontal-mirror-preserving-frame-order",
+      "visible_size": [
+        154,
+        195
+      ],
+      "source_sha256": "72de255cab1170b12c31bca2beece55e064c54fc166b614c32d0bc5f16abe711",
+      "output_sha256": "dfb00312aa1c723b5e3f21d621ee5d4ffd2760c55f5eedcae1c1d355d658cacb"
+    },
+    {
+      "frame": 2,
+      "source": "frames/running-right/02.png",
+      "output": "frames/running-left/02.png",
+      "transform": "horizontal-mirror-preserving-frame-order",
+      "visible_size": [
+        156,
+        193
+      ],
+      "source_sha256": "fe07253777fe06b3440f8e04329c86fff843abd46fa1cb62c30d4414cf21fc32",
+      "output_sha256": "5022bc40448508844f84906cf668c569af9bacbbc6df29590a325155a139b498"
+    },
+    {
+      "frame": 3,
+      "source": "frames/running-right/03.png",
+      "output": "frames/running-left/03.png",
+      "transform": "horizontal-mirror-preserving-frame-order",
+      "visible_size": [
+        176,
+        188
+      ],
+      "source_sha256": "8bd02368d20b61c7951ed43885f9c488e71b285b2d1ed4baec05068f6f0f4c94",
+      "output_sha256": "0356351c02f719dee16ee337e61319521405a9c00e0747163a734cf436b5345c"
+    },
+    {
+      "frame": 4,
+      "source": "frames/running-right/04.png",
+      "output": "frames/running-left/04.png",
+      "transform": "horizontal-mirror-preserving-frame-order",
+      "visible_size": [
+        134,
+        189
+      ],
+      "source_sha256": "a91ab8e917b8648fb8a767e2940ead7de23eafc749165251d4dac42f51ac46d6",
+      "output_sha256": "0f8982657773b1372d586decec1399b67472c5c07d69bd11251745606578079f"
+    },
+    {
+      "frame": 5,
+      "source": "frames/running-right/05.png",
+      "output": "frames/running-left/05.png",
+      "transform": "horizontal-mirror-preserving-frame-order",
+      "visible_size": [
+        150,
+        190
+      ],
+      "source_sha256": "8ead59d04eff32b452454e2825274593e42ab9d8f15a1f9106e0650b97477e89",
+      "output_sha256": "3c7f326349d8c84243af24cc0c83412f5cc72979e81ed7613bf25f1eb82917ab"
+    },
+    {
+      "frame": 6,
+      "source": "frames/running-right/06.png",
+      "output": "frames/running-left/06.png",
+      "transform": "horizontal-mirror-preserving-frame-order",
+      "visible_size": [
+        135,
+        189
+      ],
+      "source_sha256": "32daceeee92f0ba5e427fdd2286bcb0fcef7e323073b47186741d4316c24f471",
+      "output_sha256": "9026d55032038d495eb831df27d3b38d20ab6deea2f2c7fbdd4bb6b9ec9ca834"
+    },
+    {
+      "frame": 7,
+      "source": "frames/running-right/07.png",
+      "output": "frames/running-left/07.png",
+      "transform": "horizontal-mirror-preserving-frame-order",
+      "visible_size": [
+        162,
+        192
+      ],
+      "source_sha256": "c95e408cfecf0265c0746dfdc5fd4343d4e5fa3baca622c5430d7e52a3ff7164",
+      "output_sha256": "ef80bf5bef0b1da96bc3aaf3240c570110b9aed59f378945d090cc8f1abea75b"
+    }
+  ]
+}

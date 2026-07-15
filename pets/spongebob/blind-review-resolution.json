@@ -1,0 +1,17 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "failed_checks": [
+    "vertical-4: 112.5 downward component was ambiguous in blind review",
+    "vertical-7: 247.5 was classified up instead of down in blind review",
+    "continuity metric reported transparent interior rows for the direction cells"
+  ],
+  "evidence": {
+    "cardinals": "Blind consensus confirms 000 up, 090 screen-right, 180 down, and 270 screen-left; all hard gates passed.",
+    "labeled_loop": "Normal-size labeled review confirms 112.5 remains down-right and 247.5 remains down-left in the ordered loop, although their vertical component is subtle in isolation.",
+    "continuity": "The 16 directions progress monotonically with stable height and baseline and no visible reversal or clipping.",
+    "alpha_holes": "The reported transparent rows are normal negative space between arms, legs, and shoes, not transparent holes inside the sponge body.",
+    "deterministic": "The v2 atlas validator and chroma-despill report both pass without errors or warnings."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "reason": "Keep SpongeBob's body size stable during the click jump.",
+  "source": "decoded/jumping.png",
+  "grounded_source": "frames/idle/00.png",
+  "target_yellow_body_height": 152,
+  "source_middle_body_heights": [
+    291,
+    289,
+    293
+  ],
+  "shared_scale": 0.5223367697594502,
+  "placement": {
+    "frames_0_and_4": "exact idle frame; grounded",
+    "frames_1_and_3": "bottom aligned at y=203",
+    "frame_2": "top aligned at y=0 for the apex"
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "source": "frames/idle/00.png",
+      "transform": "exact-grounded-copy",
+      "alpha_bbox": [
+        14,
+        5,
+        177,
+        203
+      ],
+      "visible_size": [
+        163,
+        198
+      ],
+      "yellow_body_size": [
+        161,
+        154
+      ]
+    },
+    {
+      "frame": 1,
+      "source": "decoded/jumping.png slot 1",
+      "transform": "single-shared-scale-and-position",
+      "alpha_bbox": [
+        13,
+        3,
+        178,
+        203
+      ],
+      "visible_size": [
+        165,
+        200
+      ],
+      "yellow_body_size": [
+        163,
+        153
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "decoded/jumping.png slot 2",
+      "transform": "single-shared-scale-and-position",
+      "alpha_bbox": [
+        15,
+        0,
+        177,
+        193
+      ],
+      "visible_size": [
+        162,
+        193
+      ],
+      "yellow_body_size": [
+        160,
+        150
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "decoded/jumping.png slot 3",
+      "transform": "single-shared-scale-and-position",
+      "alpha_bbox": [
+        12,
+        3,
+        179,
+        203
+      ],
+      "visible_size": [
+        167,
+        200
+      ],
+      "yellow_body_size": [
+        165,
+        153
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "frames/idle/00.png",
+      "transform": "exact-grounded-copy",
+      "alpha_bbox": [
+        14,
+        5,
+        177,
+        203
+      ],
+      "visible_size": [
+        163,
+        198
+      ],
+      "yellow_body_size": [
+        161,
+        154
+      ]
+    }
+  ],
+  "outputs": [
+    "frames/jumping/00.png",
+    "frames/jumping/01.png",
+    "frames/jumping/02.png",
+    "frames/jumping/03.png",
+    "frames/jumping/04.png"
+  ]
+}
