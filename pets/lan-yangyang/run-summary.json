@@ -12,6 +12,7 @@
   "blind_review_resolution": null,
   "continuity": "look-continuity.json",
   "review": null,
+  "running_right_repair": "running-right-repair.json",
   "final_visual_review": "final-visual-review.json",
   "package": "."
 }

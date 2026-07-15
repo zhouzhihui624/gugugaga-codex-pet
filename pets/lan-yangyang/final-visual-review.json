@@ -1,6 +1,13 @@
 {
   "ok": true,
   "visual_qa": "pass",
-  "qa_note": "11 rows satisfy the Codex v2 contract. Character identity is stable, all nine action families are youthful and readable, and the 16 look directions form a coherent loop without clipping, detached fragments, breakage, or conspicuous scale changes.",
-  "repair_notes": []
+  "qa_note": "The 11-row Codex v2 atlas remains valid. The eight running-right frames now face screen-right and are exact framewise horizontal counterparts of the approved running-left loop; cadence, character scale, foot baseline, timing, and silhouette remain symmetric, with no clipping, resizing, abnormal jump, or transparent-edge defect. Rows 0 and 2-10 are pixel-identical to the previously approved atlas.",
+  "repair_notes": [],
+  "repair": {
+    "state": "running-right",
+    "derived_from": "running-left",
+    "transform": "framewise-horizontal-mirror-preserving-order",
+    "resampled": false,
+    "unchanged_rows": [0, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  }
 }
