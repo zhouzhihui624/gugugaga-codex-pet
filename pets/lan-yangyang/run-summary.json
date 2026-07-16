@@ -14,5 +14,8 @@
   "review": null,
   "running_right_repair": "running-right-repair.json",
   "final_visual_review": "final-visual-review.json",
-  "package": "."
+  "package": ".",
+  "look_continuity": "look-continuity.json",
+  "gugugaga_jump_method": "gugugaga-jump-method.json",
+  "jumping_fixed_size_repair": "jumping-fixed-size-repair.json"
 }

@@ -1,13 +1,22 @@
 {
   "ok": true,
   "visual_qa": "pass",
-  "qa_note": "The 11-row Codex v2 atlas remains valid. The eight running-right frames now face screen-right and are exact framewise horizontal counterparts of the approved running-left loop; cadence, character scale, foot baseline, timing, and silhouette remain symmetric, with no clipping, resizing, abnormal jump, or transparent-edge defect. Rows 0 and 2-10 are pixel-identical to the previously approved atlas.",
+  "qa_note": "The Lazy Goat atlas now uses the exact Gugu Gaga normalization method. Every non-jump populated cell is rebuilt with the shared 185/198 scale and alpha-safe sharpening. All five jump cells are exactly 185px tall, use the 0/11/18/11/0px bounded arc, and preserve the original five-pose order. The v2 atlas remains 8x11 cells with no clipping or transparent-edge residue.",
   "repair_notes": [],
   "repair": {
-    "state": "running-right",
-    "derived_from": "running-left",
-    "transform": "framewise-horizontal-mirror-preserving-order",
-    "resampled": false,
-    "unchanged_rows": [0, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    "state": "all-actions-and-jumping",
+    "reference": "gugugaga repair_hover_animation.py",
+    "algorithm": "matched-all-actions-and-original-jump-scale-bounded-arc",
+    "matched_scale": 0.934343,
+    "source_reference_height": 198,
+    "target_height": 185,
+    "click_transition_height_difference": 0,
+    "vertical_offsets": [0, 11, 18, 11, 0],
+    "sharpening": {
+      "algorithm": "alpha-weighted-unsharp-mask",
+      "radius": 0.65,
+      "percent": 60,
+      "threshold": 2
+    }
   }
 }
