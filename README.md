@@ -51,6 +51,16 @@
 - 版权说明：[pets/spongebob/LEGAL_RISK.md](pets/spongebob/LEGAL_RISK.md)
 - 素材来源及处理说明：[pets/spongebob/SOURCE.md](pets/spongebob/SOURCE.md)
 
+### 派蒙
+
+![派蒙多动作与多角度展示](pets/paimon/contact-sheet.png)
+
+- 《原神》派蒙造型，包含完整 v2 动作与 16 个观察方向。
+- 跳跃动作采用固定角色高度，只改变纵向位置，避免点击后缩小。
+- 安装命令：`./install.sh paimon`
+- 版权说明：[pets/paimon/LEGAL_RISK.md](pets/paimon/LEGAL_RISK.md)
+- 素材来源及处理说明：[pets/paimon/SOURCE.md](pets/paimon/SOURCE.md)
+
 ## 安装
 
 ```bash
@@ -61,6 +71,7 @@ cd gugugaga-codex-pet
 ./install.sh lan-yangyang
 ./install.sh doraemon
 ./install.sh spongebob
+./install.sh paimon
 ```
 
 安装位置分别为：
@@ -70,6 +81,7 @@ cd gugugaga-codex-pet
 - `${CODEX_HOME:-$HOME/.codex}/pets/lan-yangyang`
 - `${CODEX_HOME:-$HOME/.codex}/pets/doraemon`
 - `${CODEX_HOME:-$HOME/.codex}/pets/spongebob`
+- `${CODEX_HOME:-$HOME/.codex}/pets/paimon`
 
 ## 文件
 
@@ -78,6 +90,7 @@ cd gugugaga-codex-pet
 - `pets/lan-yangyang/`：懒羊羊宠物包、动作预览、验证结果及风险说明。
 - `pets/doraemon/`：哆啦A梦宠物包、预览、验证结果及风险说明。
 - `pets/spongebob/`：海绵宝宝宠物包、动作预览、验证结果、来源及风险说明。
+- `pets/paimon/`：派蒙宠物包、动作预览、验证结果、来源及风险说明。
 - `install.sh`：按宠物 ID 安装到本地 Codex。
 - `ASSET_LICENSE.md`：代码与全部角色美术素材的许可边界。
 
@@ -89,6 +102,7 @@ cd gugugaga-codex-pet
 
 ## 更新记录
 
+- `2026-07-16`：新增派蒙 v2 宠物；跳跃帧统一角色高度并只改变纵向位置，避免点击切换时缩小，同时附独立来源及版权风险说明。
 - `2026-07-16`：海绵宝宝跳跃改用咕咕嘎嘎的统一比例方法；待机与其他动作共同匹配到 `185/198` 比例，跳跃保持固定高度并恢复 `18px` 上升轨迹。
 - `2026-07-16`：将海绵宝宝挥手动作从风格不一致的 3D 渲染素材替换为用户确认的二维平面素材。
 - `2026-07-16`：新增海绵宝宝 v2 宠物；跳跃动作保持主体尺寸稳定，向左动作由完整向右帧逐帧镜像，并附独立来源及版权风险说明。

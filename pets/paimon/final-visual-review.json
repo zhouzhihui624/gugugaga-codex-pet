@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "result": "pass",
+  "reviewer": "paimon_jump_qa",
+  "note": "All nine standard actions remain coherent; jumping now keeps a fixed 185px visible height and uses an 18px vertical arc without clipping, blur, halo, or entry shrink.",
+  "warnings": [
+    "112.5 downward evidence is subtle in blind isolation and is accepted as a minor labeled-loop transition warning.",
+    "Continuity metric warnings at three boundaries have no corresponding visible break at normal size.",
+    "The global matched-scale repair was visually checked and shows no clipping or unwanted scale pop."
+  ],
+  "repairRows": []
+}

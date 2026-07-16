@@ -20,9 +20,12 @@ case "$requested_pet" in
   spongebob)
     pet_dir="$repo_dir/pets/spongebob"
     ;;
+  paimon)
+    pet_dir="$repo_dir/pets/paimon"
+    ;;
   *)
     echo "Unknown pet: $requested_pet" >&2
-    echo "Usage: ./install.sh [gugugaga|pikachu|lan-yangyang|doraemon|spongebob]" >&2
+    echo "Usage: ./install.sh [gugugaga|pikachu|lan-yangyang|doraemon|spongebob|paimon]" >&2
     exit 2
     ;;
 esac

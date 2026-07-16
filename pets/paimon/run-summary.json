@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run",
+  "spritesheet": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/final/spritesheet-extended.webp",
+  "validation": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/final/validation-extended.json",
+  "chroma_despill": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/chroma-despill-extended.json",
+  "jump_normalization": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/jumping-normalization.json",
+  "contact_sheet": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/look-directions.png",
+  "direction_semantics": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/direction-blind-validation.json",
+  "blind_review_resolution": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/blind-review-resolution.json",
+  "continuity": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/look-continuity.json",
+  "review": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/qa/review.json",
+  "package": "/Users/zhzhou/.codex/pets/paimon"
+}

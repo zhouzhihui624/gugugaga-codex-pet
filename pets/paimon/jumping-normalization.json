@@ -1,0 +1,1238 @@
+{
+  "ok": true,
+  "algorithm": "matched-all-actions-and-fixed-jump-height-bounded-arc",
+  "source": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/outputs/paimon-pet/spritesheet.webp",
+  "output": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/paimon-v1/run/final/spritesheet-extended-fixed-jump.webp",
+  "target_height": 185,
+  "source_idle_height": 197,
+  "normalized_idle_height": 185,
+  "matched_non_jump_scale": 0.939086,
+  "click_transition_height_difference": 0,
+  "vertical_offsets": [
+    0,
+    11,
+    18,
+    11,
+    0
+  ],
+  "max_vertical_travel": 18,
+  "sharpening": {
+    "algorithm": "alpha-weighted-unsharp-mask",
+    "radius": 0.65,
+    "percent": 60,
+    "threshold": 2
+  },
+  "matched_state_frames": {
+    "idle": [
+      {
+        "frame": 0,
+        "source_box": [
+          27,
+          6,
+          165,
+          203
+        ],
+        "output_box": [
+          31,
+          18,
+          161,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          28,
+          6,
+          163,
+          203
+        ],
+        "output_box": [
+          32,
+          18,
+          159,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          30,
+          6,
+          162,
+          203
+        ],
+        "output_box": [
+          34,
+          18,
+          158,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          32,
+          6,
+          160,
+          203
+        ],
+        "output_box": [
+          36,
+          18,
+          156,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          31,
+          6,
+          161,
+          203
+        ],
+        "output_box": [
+          35,
+          18,
+          157,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          27,
+          6,
+          165,
+          203
+        ],
+        "output_box": [
+          31,
+          18,
+          161,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 6,
+        "source_box": [
+          27,
+          5,
+          165,
+          202
+        ],
+        "output_box": [
+          31,
+          18,
+          161,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "running-right": [
+      {
+        "frame": 0,
+        "source_box": [
+          34,
+          5,
+          157,
+          196
+        ],
+        "output_box": [
+          38,
+          25,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          34,
+          11,
+          157,
+          202
+        ],
+        "output_box": [
+          38,
+          24,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          35,
+          9,
+          156,
+          200
+        ],
+        "output_box": [
+          39,
+          24,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          34,
+          10,
+          157,
+          202
+        ],
+        "output_box": [
+          38,
+          23,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          33,
+          9,
+          158,
+          202
+        ],
+        "output_box": [
+          37,
+          22,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          34,
+          10,
+          156,
+          202
+        ],
+        "output_box": [
+          38,
+          23,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 6,
+        "source_box": [
+          34,
+          13,
+          156,
+          203
+        ],
+        "output_box": [
+          38,
+          25,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 7,
+        "source_box": [
+          35,
+          13,
+          156,
+          202
+        ],
+        "output_box": [
+          39,
+          26,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "running-left": [
+      {
+        "frame": 0,
+        "source_box": [
+          34,
+          5,
+          157,
+          198
+        ],
+        "output_box": [
+          38,
+          23,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          34,
+          6,
+          157,
+          201
+        ],
+        "output_box": [
+          38,
+          20,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          34,
+          10,
+          157,
+          203
+        ],
+        "output_box": [
+          38,
+          22,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          34,
+          9,
+          157,
+          202
+        ],
+        "output_box": [
+          38,
+          22,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          35,
+          8,
+          156,
+          201
+        ],
+        "output_box": [
+          39,
+          22,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          34,
+          9,
+          156,
+          202
+        ],
+        "output_box": [
+          38,
+          22,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 6,
+        "source_box": [
+          34,
+          10,
+          156,
+          203
+        ],
+        "output_box": [
+          38,
+          22,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 7,
+        "source_box": [
+          36,
+          12,
+          155,
+          200
+        ],
+        "output_box": [
+          40,
+          26,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "waving": [
+      {
+        "frame": 0,
+        "source_box": [
+          19,
+          6,
+          173,
+          203
+        ],
+        "output_box": [
+          23,
+          18,
+          168,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          19,
+          5,
+          172,
+          203
+        ],
+        "output_box": [
+          24,
+          17,
+          168,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          20,
+          5,
+          172,
+          203
+        ],
+        "output_box": [
+          24,
+          18,
+          167,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          19,
+          5,
+          173,
+          203
+        ],
+        "output_box": [
+          23,
+          17,
+          168,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "failed": [
+      {
+        "frame": 0,
+        "source_box": [
+          34,
+          5,
+          157,
+          203
+        ],
+        "output_box": [
+          38,
+          18,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          40,
+          11,
+          151,
+          202
+        ],
+        "output_box": [
+          44,
+          24,
+          148,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          39,
+          16,
+          151,
+          203
+        ],
+        "output_box": [
+          43,
+          27,
+          148,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          39,
+          29,
+          152,
+          202
+        ],
+        "output_box": [
+          43,
+          41,
+          149,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          40,
+          26,
+          151,
+          203
+        ],
+        "output_box": [
+          44,
+          37,
+          148,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          42,
+          35,
+          149,
+          203
+        ],
+        "output_box": [
+          46,
+          45,
+          146,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 6,
+        "source_box": [
+          41,
+          53,
+          150,
+          201
+        ],
+        "output_box": [
+          45,
+          64,
+          147,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 7,
+        "source_box": [
+          34,
+          25,
+          157,
+          203
+        ],
+        "output_box": [
+          38,
+          36,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "waiting": [
+      {
+        "frame": 0,
+        "source_box": [
+          32,
+          6,
+          159,
+          202
+        ],
+        "output_box": [
+          36,
+          19,
+          155,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          36,
+          5,
+          154,
+          200
+        ],
+        "output_box": [
+          40,
+          20,
+          151,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          38,
+          5,
+          153,
+          202
+        ],
+        "output_box": [
+          42,
+          18,
+          150,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          41,
+          5,
+          150,
+          203
+        ],
+        "output_box": [
+          45,
+          17,
+          147,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          38,
+          5,
+          153,
+          203
+        ],
+        "output_box": [
+          42,
+          17,
+          150,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          36,
+          5,
+          155,
+          203
+        ],
+        "output_box": [
+          40,
+          17,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "running": [
+      {
+        "frame": 0,
+        "source_box": [
+          33,
+          7,
+          158,
+          203
+        ],
+        "output_box": [
+          37,
+          19,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          37,
+          9,
+          153,
+          203
+        ],
+        "output_box": [
+          41,
+          22,
+          150,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          32,
+          12,
+          159,
+          202
+        ],
+        "output_box": [
+          36,
+          26,
+          155,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          43,
+          5,
+          147,
+          201
+        ],
+        "output_box": [
+          47,
+          19,
+          145,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          35,
+          7,
+          156,
+          203
+        ],
+        "output_box": [
+          39,
+          19,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          36,
+          7,
+          155,
+          203
+        ],
+        "output_box": [
+          40,
+          19,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "review": [
+      {
+        "frame": 0,
+        "source_box": [
+          34,
+          5,
+          158,
+          203
+        ],
+        "output_box": [
+          38,
+          17,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          45,
+          5,
+          147,
+          203
+        ],
+        "output_box": [
+          48,
+          17,
+          144,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          39,
+          5,
+          153,
+          203
+        ],
+        "output_box": [
+          42,
+          17,
+          149,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          40,
+          5,
+          152,
+          203
+        ],
+        "output_box": [
+          43,
+          18,
+          148,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          42,
+          14,
+          150,
+          203
+        ],
+        "output_box": [
+          45,
+          26,
+          146,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          34,
+          6,
+          158,
+          203
+        ],
+        "output_box": [
+          38,
+          18,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "look-000-157.5": [
+      {
+        "frame": 0,
+        "source_box": [
+          30,
+          5,
+          169,
+          201
+        ],
+        "output_box": [
+          30,
+          19,
+          161,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          36,
+          10,
+          166,
+          201
+        ],
+        "output_box": [
+          35,
+          24,
+          157,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          40,
+          11,
+          165,
+          201
+        ],
+        "output_box": [
+          37,
+          25,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          42,
+          13,
+          163,
+          201
+        ],
+        "output_box": [
+          39,
+          26,
+          153,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          43,
+          15,
+          162,
+          201
+        ],
+        "output_box": [
+          40,
+          28,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          43,
+          15,
+          161,
+          201
+        ],
+        "output_box": [
+          40,
+          28,
+          151,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 6,
+        "source_box": [
+          45,
+          21,
+          159,
+          201
+        ],
+        "output_box": [
+          42,
+          34,
+          149,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 7,
+        "source_box": [
+          45,
+          26,
+          158,
+          201
+        ],
+        "output_box": [
+          43,
+          39,
+          149,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ],
+    "look-180-337.5": [
+      {
+        "frame": 0,
+        "source_box": [
+          38,
+          14,
+          161,
+          201
+        ],
+        "output_box": [
+          38,
+          27,
+          154,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 1,
+        "source_box": [
+          40,
+          14,
+          160,
+          201
+        ],
+        "output_box": [
+          39,
+          27,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 2,
+        "source_box": [
+          41,
+          14,
+          161,
+          201
+        ],
+        "output_box": [
+          39,
+          27,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 3,
+        "source_box": [
+          41,
+          14,
+          159,
+          201
+        ],
+        "output_box": [
+          40,
+          27,
+          151,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 4,
+        "source_box": [
+          41,
+          16,
+          160,
+          201
+        ],
+        "output_box": [
+          40,
+          29,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 5,
+        "source_box": [
+          41,
+          16,
+          160,
+          201
+        ],
+        "output_box": [
+          40,
+          29,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 6,
+        "source_box": [
+          40,
+          18,
+          160,
+          201
+        ],
+        "output_box": [
+          39,
+          31,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      },
+      {
+        "frame": 7,
+        "source_box": [
+          40,
+          18,
+          160,
+          201
+        ],
+        "output_box": [
+          39,
+          31,
+          152,
+          203
+        ],
+        "matched_scale": 0.939086
+      }
+    ]
+  },
+  "jump_frames": [
+    {
+      "frame": 0,
+      "source_box": [
+        43,
+        65,
+        149,
+        203
+      ],
+      "output_box": [
+        25,
+        18,
+        167,
+        203
+      ],
+      "target_height": 185,
+      "vertical_offset": 0
+    },
+    {
+      "frame": 1,
+      "source_box": [
+        35,
+        29,
+        157,
+        189
+      ],
+      "output_box": [
+        25,
+        7,
+        166,
+        192
+      ],
+      "target_height": 185,
+      "vertical_offset": 11
+    },
+    {
+      "frame": 2,
+      "source_box": [
+        36,
+        6,
+        156,
+        167
+      ],
+      "output_box": [
+        27,
+        0,
+        165,
+        185
+      ],
+      "target_height": 185,
+      "vertical_offset": 18
+    },
+    {
+      "frame": 3,
+      "source_box": [
+        36,
+        36,
+        156,
+        196
+      ],
+      "output_box": [
+        26,
+        7,
+        165,
+        192
+      ],
+      "target_height": 185,
+      "vertical_offset": 11
+    },
+    {
+      "frame": 4,
+      "source_box": [
+        36,
+        51,
+        156,
+        203
+      ],
+      "output_box": [
+        23,
+        18,
+        169,
+        203
+      ],
+      "target_height": 185,
+      "vertical_offset": 0
+    }
+  ]
+}
