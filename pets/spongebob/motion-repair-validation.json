@@ -1,62 +1,105 @@
 {
   "ok": true,
+  "algorithm": "gugugaga-exact matched-all-actions fixed-height jump with bounded arc",
+  "matched_scale": 0.934343,
+  "idle": {
+    "bbox": [
+      20,
+      18,
+      172,
+      203
+    ],
+    "visible_height": 185
+  },
   "jumping": {
-    "grounded_start_matches_idle": true,
-    "grounded_end_matches_idle": true,
-    "idle_yellow_body_size": [
-      161,
-      154
+    "fixed_height": 185,
+    "click_transition_height_difference": 0,
+    "vertical_offsets": [
+      0,
+      11,
+      18,
+      11,
+      0
     ],
     "frames": [
       {
         "frame": 0,
-        "yellow_body_size": [
-          161,
-          154
+        "bbox": [
+          20,
+          18,
+          172,
+          203
         ],
-        "width_ratio_to_idle": 1.0,
-        "height_ratio_to_idle": 1.0
+        "visible_size": [
+          152,
+          185
+        ],
+        "vertical_offset": 0
       },
       {
         "frame": 1,
-        "yellow_body_size": [
-          163,
-          153
+        "bbox": [
+          19,
+          7,
+          172,
+          192
         ],
-        "width_ratio_to_idle": 1.0124223602484472,
-        "height_ratio_to_idle": 0.9935064935064936
+        "visible_size": [
+          153,
+          185
+        ],
+        "vertical_offset": 11
       },
       {
         "frame": 2,
-        "yellow_body_size": [
-          160,
-          150
+        "bbox": [
+          18,
+          0,
+          173,
+          185
         ],
-        "width_ratio_to_idle": 0.9937888198757764,
-        "height_ratio_to_idle": 0.974025974025974
+        "visible_size": [
+          155,
+          185
+        ],
+        "vertical_offset": 18
       },
       {
         "frame": 3,
-        "yellow_body_size": [
-          165,
-          153
+        "bbox": [
+          19,
+          7,
+          173,
+          192
         ],
-        "width_ratio_to_idle": 1.0248447204968945,
-        "height_ratio_to_idle": 0.9935064935064936
+        "visible_size": [
+          154,
+          185
+        ],
+        "vertical_offset": 11
       },
       {
         "frame": 4,
-        "yellow_body_size": [
-          161,
-          154
+        "bbox": [
+          20,
+          18,
+          172,
+          203
         ],
-        "width_ratio_to_idle": 1.0,
-        "height_ratio_to_idle": 1.0
+        "visible_size": [
+          152,
+          185
+        ],
+        "vertical_offset": 0
       }
     ]
   },
+  "waving": {
+    "pose_source_preserved": true,
+    "note": "Existing approved 2D waving art was uniformly scaled with every other non-jump action; it was not replaced."
+  },
   "running_left": {
-    "derived_from_running_right": true,
+    "mirror_mismatch_bytes_total": 0,
     "frames": [
       {
         "frame": 0,

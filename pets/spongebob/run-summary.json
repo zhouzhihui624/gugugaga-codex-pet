@@ -15,5 +15,9 @@
   "legal_risk": "LEGAL_RISK.md",
   "package": "~/.codex/pets/spongebob",
   "waving_repair": "waving-2d-repair.json",
-  "waving_preview": "waving-preview.gif"
+  "waving_preview": "waving-preview.gif",
+  "jumping_repair": "jumping-fixed-size-repair.json",
+  "jumping_method": "gugugaga-jump-method.json",
+  "motion_validation": "motion-repair-validation.json",
+  "jumping_preview": "jumping-preview.gif"
 }

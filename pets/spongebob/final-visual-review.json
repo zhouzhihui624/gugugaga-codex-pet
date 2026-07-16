@@ -1,15 +1,15 @@
 {
   "ok": true,
   "verdict": "pass-with-warnings",
-  "standard_rows": "All standard actions are complete, unclipped, and readable. Drag rows no longer end with a scale pop, and the jumping row preserves a fixed-size vertical arc rather than simulating height through scaling.",
+  "standard_rows": "All non-jump actions use the same 185/198 matched scale as gugugaga-exact. Every jump frame is fixed at 185px high with a 0/11/18/11/0 vertical arc, so the click transition changes position without changing size.",
   "directions": "The labeled 16-direction loop follows the intended axes and quadrants monotonically. All four cardinal hard gates pass blind review.",
   "warnings": "The waving row now uses the user-approved flat 2D source instead of the previous 3D render. Waiting, running, and review reuse one approved generated thinking-pose family in different frame orders because additional exact-character edits were repeatedly moderation-blocked. The 112.5 and 247.5 vertical components are subtle in isolated blind pairs.",
   "repair": "No blocking repair remains. Residual differences are documented in SOURCE.md and the row provenance files.",
   "motionRepairs": {
     "ok": true,
-    "jumping": "fixed body scale with exact idle takeoff and landing frames",
-    "runningLeft": "exact horizontal mirrors of intact running-right frames",
+    "jumping": "gugugaga-exact matched-all-actions fixed-height jump: 185px, offsets 0/11/18/11/0, click size difference 0",
+    "runningLeft": "re-derived as exact horizontal mirrors after global normalization; mismatch bytes 0",
     "validation": "motion-repair-validation.json",
-    "waving": "replaced the 3D GIPHY row with the approved flat 2D source and stabilized four animation frames"
+    "waving": "existing approved 2D waving pose preserved and uniformly scaled with all other actions"
   }
 }
