@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "visual_qa": "PASS",
+  "candidate": "final/spritesheet-final-v5.webp",
+  "reviewed_artifacts": [
+    "qa/contact-sheet-final-v5.png",
+    "qa/final-v5-row-2x.png",
+    "qa/previews-final-v5/jumping.gif",
+    "qa/previews-final-v5/click-transition-final-v5.gif"
+  ],
+  "checks": {
+    "idle_entry_exit_pixel_exact": true,
+    "perceived_scale_stable": true,
+    "jump_semantics_clear": true,
+    "trajectory_0_11_18_11_0": true,
+    "head_and_armor_continuity": true,
+    "staff_straight_single_and_connected": true,
+    "grip_artifacts_removed": true,
+    "no_transparent_holes_or_clipping": true
+  },
+  "reviewers": 2,
+  "note": "Both independent reviewers passed the refreshed atlas and GIFs. The main torso area remains stable, the endpoints match idle exactly, and the jump no longer reads as a resized character."
+}

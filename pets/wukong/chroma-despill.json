@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "input": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/repair-20260717-jump-transition-v5/final/jumping-row-pre-despill.png",
+  "output": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/repair-20260717-jump-transition-v5/final/jumping-row-clean-ff00ff.png",
+  "chroma_key": "#FF00FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 12976,
+  "decontaminated_pixels": 12495,
+  "spill_suppressed_pixels": 12976,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c1": 3657,
+    "r0c3": 3610,
+    "r0c2": 3517,
+    "r0c0": 1096,
+    "r0c4": 1096
+  },
+  "alpha_preserved": true
+}

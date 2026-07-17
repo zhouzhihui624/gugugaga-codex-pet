@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong",
+  "spritesheet": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/final/spritesheet-extended.webp",
+  "validation": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/final/validation-extended.json",
+  "chroma_despill": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/chroma-despill-extended.json",
+  "contact_sheet": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/look-directions.png",
+  "direction_semantics": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/direction-blind-validation.json",
+  "blind_review_resolution": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/blind-review-resolution.json",
+  "continuity": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/look-continuity.json",
+  "review": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/review.json",
+  "jump_normalization": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/jumping-normalization.json",
+  "repair_verification": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/repair-verification.json",
+  "final_visual_review": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/qa/final-visual-review.json",
+  "package": "/Users/zhzhou/.codex/pets/wukong"
+}

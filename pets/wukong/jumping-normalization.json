@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "algorithm": "generated-leg-poses-approved-head-short-staff-no-resize",
+  "input": "/Users/zhzhou/.codex/pets/wukong/spritesheet.webp",
+  "output": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/repair-20260717-jump-transition-v5/final/spritesheet-generated-pose-fixed.webp",
+  "pose_frames": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/repair-20260717-jump-transition-v5/frames-extracted-v4/jumping",
+  "staff_source": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/repair-20260717-jump-body-scale-v3/references/staff-only-cell.png",
+  "vertical_offsets": [
+    0,
+    11,
+    18,
+    11,
+    0
+  ],
+  "staff_base_box": [
+    42,
+    46,
+    59,
+    203
+  ],
+  "click_entry_pixel_exact": true,
+  "click_exit_pixel_exact": true,
+  "changed_rows": [
+    4
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "source": "idle/00",
+      "pixel_exact_idle": true,
+      "vertical_offset": 0,
+      "whole_character_resized": false,
+      "canonical_head_box": [
+        66,
+        21,
+        115,
+        87
+      ]
+    },
+    {
+      "frame": 1,
+      "source": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/repair-20260717-jump-transition-v5/frames-extracted-v4/jumping/01.png",
+      "pixel_exact_idle": false,
+      "vertical_offset": 11,
+      "source_translation": 11,
+      "whole_character_resized": false,
+      "body_scale_x": 1.12,
+      "body_scale_y": 1.0,
+      "output_box": [
+        42,
+        10,
+        154,
+        192
+      ],
+      "generated_head_box": [
+        76,
+        15,
+        121,
+        68
+      ],
+      "generated_head_size": [
+        45,
+        53
+      ],
+      "canonical_head_size": [
+        47,
+        63
+      ],
+      "canonical_head_box": [
+        75,
+        10,
+        122,
+        73
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/repair-20260717-jump-transition-v5/frames-extracted-v4/jumping/02.png",
+      "pixel_exact_idle": false,
+      "vertical_offset": 18,
+      "source_translation": 0,
+      "whole_character_resized": false,
+      "body_scale_x": 1.12,
+      "body_scale_y": 1.0,
+      "output_box": [
+        42,
+        3,
+        154,
+        196
+      ],
+      "generated_head_box": [
+        74,
+        8,
+        118,
+        60
+      ],
+      "generated_head_size": [
+        44,
+        52
+      ],
+      "canonical_head_size": [
+        47,
+        63
+      ],
+      "canonical_head_box": [
+        72,
+        3,
+        119,
+        66
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/zhzhou/Documents/Codex/2026-07-12/hatch-pet-users-zhzhou-codex-skills/work/wukong/repair-20260717-jump-transition-v5/frames-extracted-v4/jumping/03.png",
+      "pixel_exact_idle": false,
+      "vertical_offset": 11,
+      "source_translation": 11,
+      "whole_character_resized": false,
+      "body_scale_x": 1.12,
+      "body_scale_y": 1.0,
+      "output_box": [
+        42,
+        10,
+        153,
+        192
+      ],
+      "generated_head_box": [
+        75,
+        16,
+        119,
+        68
+      ],
+      "generated_head_size": [
+        44,
+        52
+      ],
+      "canonical_head_size": [
+        47,
+        63
+      ],
+      "canonical_head_box": [
+        74,
+        10,
+        121,
+        73
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "idle/00",
+      "pixel_exact_idle": true,
+      "vertical_offset": 0,
+      "whole_character_resized": false,
+      "canonical_head_box": [
+        66,
+        21,
+        115,
+        87
+      ]
+    }
+  ],
+  "sha256": "8dde0460fefaf2f29989a1cfb55fe27c403981bb8745b114c6f7133afd7d1ac3"
+}

@@ -62,6 +62,16 @@
 - 版权说明：[pets/paimon/LEGAL_RISK.md](pets/paimon/LEGAL_RISK.md)
 - 素材来源及处理说明：[pets/paimon/SOURCE.md](pets/paimon/SOURCE.md)
 
+### 悟空
+
+![悟空多动作与多角度展示](pets/wukong/contact-sheet.png)
+
+- 《黑神话：悟空》黑金甲造型，包含完整 v2 动作与 16 个观察方向。
+- 跳跃五帧保持一致的人物比例，按 `0/11/18/11/0` 像素轨迹上升；金箍棒在跑动及观察动作中保持笔直。
+- 安装命令：`./install.sh wukong`
+- 版权说明：[pets/wukong/LEGAL_RISK.md](pets/wukong/LEGAL_RISK.md)
+- 素材来源及处理说明：[pets/wukong/SOURCE.md](pets/wukong/SOURCE.md)
+
 ## 安装
 
 ```bash
@@ -73,6 +83,7 @@ cd gugugaga-codex-pet
 ./install.sh doraemon
 ./install.sh spongebob
 ./install.sh paimon
+./install.sh wukong
 ```
 
 安装位置分别为：
@@ -83,6 +94,7 @@ cd gugugaga-codex-pet
 - `${CODEX_HOME:-$HOME/.codex}/pets/doraemon`
 - `${CODEX_HOME:-$HOME/.codex}/pets/spongebob`
 - `${CODEX_HOME:-$HOME/.codex}/pets/paimon`
+- `${CODEX_HOME:-$HOME/.codex}/pets/wukong`
 
 ## 文件
 
@@ -92,6 +104,7 @@ cd gugugaga-codex-pet
 - `pets/doraemon/`：哆啦A梦宠物包、预览、验证结果及风险说明。
 - `pets/spongebob/`：海绵宝宝宠物包、动作预览、验证结果、来源及风险说明。
 - `pets/paimon/`：派蒙宠物包、动作预览、验证结果、来源及风险说明。
+- `pets/wukong/`：悟空宠物包、动作预览、验证结果、来源及风险说明。
 - `install.sh`：按宠物 ID 安装到本地 Codex。
 - `ASSET_LICENSE.md`：代码与全部角色美术素材的许可边界。
 
@@ -103,6 +116,7 @@ cd gugugaga-codex-pet
 
 ## 更新记录
 
+- `2026-07-17`：新增悟空 v2 宠物；修正跳跃衔接、人物比例与金箍棒形态，附完整动作、多角度预览、来源及版权风险说明。
 - `2026-07-16`：新增派蒙 v2 宠物；跳跃帧统一角色高度并只改变纵向位置，避免点击切换时缩小，同时附独立来源及版权风险说明。
 - `2026-07-16`：懒羊羊改用咕咕嘎嘎的精确统一比例方案，跳跃五帧固定为 `185px` 高，恢复 `18px` 上升轨迹，并继续保持左右跑动逐帧镜像。
 - `2026-07-16`：海绵宝宝跳跃改用咕咕嘎嘎的统一比例方法；待机与其他动作共同匹配到 `185/198` 比例，跳跃保持固定高度并恢复 `18px` 上升轨迹。

@@ -1,0 +1,17 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "failed_checks": [
+    "337.5 horizontal axis received an ambiguous majority",
+    "157.5 horizontal axis received an ambiguous majority",
+    "112.5 vertical axis received an ambiguous majority"
+  ],
+  "evidence": [
+    "All four cardinal pairs passed the independent blind hard gates.",
+    "The labeled normal-size semantic review passes all 16 directions without a wrong quadrant or reversal.",
+    "The ordered loop shows continuous 292.5 to 315 to 337.5 steps and a distinct, continuous 337.5 to 000 closure.",
+    "Atlas validation, registration edge checks, scale consistency, and staff integrity all pass."
+  ],
+  "reason": "The remaining uncertainty is limited to subtle near-axis cues in intermediate directions and does not indicate a semantic reversal or broken loop."
+}
